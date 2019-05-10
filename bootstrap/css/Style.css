@@ -1,0 +1,64 @@
+/*
+	Theme Name : The-Blog-CMS
+	Author : Ahamed Safnaj
+	Author URL : ahamedsafnaj.blogspot.com
+	Description : A Php Template for Blogs
+	Version : 1.0
+*/
+/*background: #2f4050;*/
+
+/*body{
+    background: #2f4050;
+}*/
+
+
+.col-sm-10{
+    background-color: #ffffff;
+}
+
+ul.nav a:hover {
+    color: #fff !important;
+    display:block;
+}
+.SideBar{
+    position: fixed;
+    width: 15%;
+}
+
+#Side_Menu a{
+    color: #fff;
+    display: block;
+    margin-top: 2px;
+}
+
+#Side_Menu a{
+    color: #fff;
+    display: block;
+}
+
+#Side_Menu a:hover {
+    color: #ffffff;
+    background-color: #1ab394;
+    font-weight: bold;
+    display: block;
+    padding: auto;
+    margin-top: 2px;
+}
+
+.col-sm-2 h2{
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+#Footer{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+    text-align: center;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
