@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82dd06c1-726c-48ae-b017-9d26a3e60456" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/Dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
-    </list>
+    <list default="true" id="82dd06c1-726c-48ae-b017-9d26a3e60456" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -253,7 +249,7 @@
       <updated>1557054731417</updated>
       <workItem from="1557054745627" duration="4757000" />
       <workItem from="1557736766759" duration="4451000" />
-      <workItem from="1557823375730" duration="4438000" />
+      <workItem from="1557823375730" duration="4607000" />
     </task>
     <task id="LOCAL-00001" summary="Dashboard UI">
       <created>1557740476395</created>
@@ -269,15 +265,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557826657827</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dashboard UI">
+      <created>1557828119366</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557828119366</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13646000" />
+    <option name="totallyTimeSpent" value="13815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
