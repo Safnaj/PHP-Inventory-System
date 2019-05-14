@@ -1,4 +1,5 @@
 <?php include_once("includes/header.php"); ?>
+<title>Dashboard</title>
 
 <div class="container">
     <div class="row" style="padding-top: 10px;">

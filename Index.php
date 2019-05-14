@@ -1,4 +1,5 @@
 <?php include_once("includes/header.php"); ?>
+<title>Login</title>
 
     <div class="container">
         <div class="card mx-auto" style="width: 30rem;">
@@ -15,7 +16,7 @@
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                     </div>
                     <button type="submit" class="btn btn-primary">Login</button>
-                    <span><a href="#">Register</a> </span>
+                    <span><a href="register.php">Register</a> </span>
                 </form>
             </div>
             <div class="card-footer">
