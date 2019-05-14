@@ -1,13 +1,13 @@
 <?php include_once("includes/header.php"); ?>
 
 <div class="container">
-    <div class="row">
+    <div class="row" style="padding-top: 10px;">
         <div class="col-md-4">
             <div class="card mx-auto">
-                <img class="card-img-top mx-auto" style="width: 50%;" src="images/avatar.png" alt="Card image cap">
+                <img class="card-img-top" style="width: 40%;" src="images/avatar.png" alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">Profile Info</h4>
-                    <p class="card-text"><i class="fa fa-user">&nbsp;</i> Ahamed Safnaj</p>
+                    <p class="card-text">Ahamed Safnaj</p>
                     <p class="card-text">Admin</p>
                     <p class="card-text">Last Login : xxxx-xx-xx</p>
                     <a href="#" class="btn btn-primary">Edit Profile</a>
@@ -35,16 +35,14 @@
         </div>
     </div>
 </div>
-<br>
-<br>
-<div class="container">
+<div class="container" style="padding-top: 10px;">
     <div class="row">
         <div class="col-md-4">
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Categories</h5>
                     <p class="card-text">Here You Can Manage Your Categories</p>
-                    <a href="#" class="btn btn-primary">Add</a>
+                    <a href="#" data-toggle="modal" data-target="#category" class="btn btn-primary">Add</a>
                     <a href="#" class="btn btn-primary">Manage</a>
                 </div>
             </div>
@@ -54,7 +52,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Brands</h5>
                     <p class="card-text">Here You Can Manage Your Brands</p>
-                    <a href="#" class="btn btn-primary">Add</a>
+                    <a href="#" data-toggle="modal" data-target="#brands" class="btn btn-primary">Add</a>
                     <a href="#" class="btn btn-primary">Manage</a>
                 </div>
             </div>
@@ -64,7 +62,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Products</h5>
                     <p class="card-text">Here You Can Manage Your Products</p>
-                    <a href="#" class="btn btn-primary">Add</a>
+                    <a href="#" data-toggle="modal" data-target="#products" class="btn btn-primary">Add</a>
                     <a href="#" class="btn btn-primary">Manage</a>
                 </div>
             </div>
@@ -72,5 +70,11 @@
     </div>
 </div>
 <br>
+<!--Category Page Model-->
+<?php include_once("includes/category.php"); ?>
+<!--Brands Page Model-->
+<?php include_once("includes/brands.php"); ?>
+<!--Products Page Model-->
+<?php include_once("includes/products.php"); ?>
 </body>
 </html>
