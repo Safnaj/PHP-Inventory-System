@@ -1,4 +1,4 @@
-<?php include_once("includes/header.php"); ?>
+<?php include_once("includes/Header.php"); ?>
 <title>Register</title>
 
 <div class="container">

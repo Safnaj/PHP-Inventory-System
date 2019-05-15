@@ -1,4 +1,4 @@
-<?php include_once("includes/header.php"); ?>
+<?php include_once("includes/Header.php"); ?>
 <title>Login</title>
 
     <div class="container">
@@ -16,7 +16,7 @@
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                     </div>
                     <button type="submit" class="btn btn-primary">Login</button>
-                    <span><a href="register.php">Register</a> </span>
+                    <span><a href="Register.php">Register</a> </span>
                 </form>
             </div>
             <div class="card-footer">

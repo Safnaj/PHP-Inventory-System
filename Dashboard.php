@@ -1,4 +1,4 @@
-<?php include_once("includes/header.php"); ?>
+<?php include_once("includes/Header.php"); ?>
 <title>Dashboard</title>
 
 <div class="container">
@@ -72,10 +72,10 @@
 </div>
 <br>
 <!--Category Page Model-->
-<?php include_once("includes/category.php"); ?>
+<?php include_once("includes/Category.php"); ?>
 <!--Brands Page Model-->
-<?php include_once("includes/brands.php"); ?>
+<?php include_once("includes/Brands.php"); ?>
 <!--Products Page Model-->
-<?php include_once("includes/products.php"); ?>
+<?php include_once("includes/Products.php"); ?>
 </body>
 </html>
