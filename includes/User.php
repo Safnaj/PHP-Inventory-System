@@ -15,15 +15,19 @@ class User
         global $DBConnect;
     }
     private function emailExists($email){
-        $PreparedStatement = $this->con->prepare("SELECT id FROM users WHERE email = ?");
-        $PreparedStatement->bind_param("s",$email);
-        $PreparedStatement->execute() or die ($this->con->error);
-        $Result = $PreparedStatement->get_result();
-        if($$Result > 0){
-            return 1;
-        }else{
-            return 0;
-        }
+		if($DBConnect){
+			$PreparedStatement = $this->con->prepare("SELECT id FROM users WHERE email = ?");
+			$PreparedStatement->bind_param("s",$email);
+			$PreparedStatement->execute() or die ($this->con->error);
+			$Result = $PreparedStatement->get_result();
+			if($Result > 0){
+				return 1;
+			}else{
+				return 0;
+			}
+		}else{
+			echo "DB Error..!";
+		}
     }
 
     public function createUser($username,$email,$password,$usertype){
