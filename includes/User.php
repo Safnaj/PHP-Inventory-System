@@ -11,7 +11,7 @@ class User
 
     function __construct()
     {
-        include_once ("../database/DBConnection.php");
+        include_once ("../database/DBConnection.php"); //DbConnection
         global $DBConnect;
     }
     private function emailExists($email){
