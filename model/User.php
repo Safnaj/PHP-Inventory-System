@@ -25,7 +25,7 @@ class User
         $PreparedStatement->bind_param("s",$email);
         $PreparedStatement->execute() or die ($this->con->error);
         $Result = $PreparedStatement->get_result();
-        if($Result > 0){
+        if($Result->num_rows > 0){
             return 1;
         }else{
             return 0;
@@ -33,9 +33,24 @@ class User
     }
 
     public function createUser($username,$email,$password,$usertype){
-        $pre_stmt = $this->con->prepare("");
+        if($this->emailExists($email)){
+            echo "Email Already Exisists..!";
+        }else {
+            $passwordHash = password_hash($password,PASSWORD_BCRYPT,["cost"=>8]);
+            $date = date("Y-m-d");
+            $notes = " ";
+            $PreparedStatement = $this->con->prepare("INSERT INTO `users`(`username`, `email`, `password`, `user_type`, `reg_date`, `last_login`, `notes`) VALUES (?,?,?,?,?,?,?)");
+            $PreparedStatement->bind_param("sssssss", $username, $email, $passwordHash, $usertype, $date, $date, $notes);
+            $Result = $PreparedStatement->execute() or die($this->con->error);
+            if ($Result) {
+                return $this->con->insert_id;
+            } else {
+                return "ERROR";
+            }
+        }
     }
 
 }
-$obj = new User();
+$user = new User();
+$user->createUser("Safnaj","safnaj@gmail. om","961013","Admin");
 
