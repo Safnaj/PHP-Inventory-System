@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82dd06c1-726c-48ae-b017-9d26a3e60456" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/User.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +39,8 @@
       <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+            <state relative-caret-position="218">
+              <caret line="67" column="57" lean-forward="true" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
               <folding>
                 <element signature="e#7#77#0#PHP" expanded="true" />
               </folding>
@@ -111,9 +110,9 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.6" />
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="516" />
-    <option name="y" value="54" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="450" />
+    <option name="y" value="16" />
     <option name="width" value="850" />
     <option name="height" value="684" />
   </component>
@@ -197,7 +196,7 @@
       <workItem from="1558800954721" duration="30000" />
       <workItem from="1558806255709" duration="10000" />
       <workItem from="1559980665978" duration="1593000" />
-      <workItem from="1559983199215" duration="1802000" />
+      <workItem from="1559983199215" duration="4572000" />
     </task>
     <task id="LOCAL-00001" summary="Dashboard UI">
       <created>1557740476395</created>
@@ -224,10 +223,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20913000" />
+    <option name="totallyTimeSpent" value="23683000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="450" y="16" width="850" height="684" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -237,9 +236,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290938" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16544656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19904077" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.02489019" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.040767387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -606,8 +605,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        <state relative-caret-position="218">
+          <caret line="67" column="57" lean-forward="true" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
           <folding>
             <element signature="e#7#77#0#PHP" expanded="true" />
           </folding>
