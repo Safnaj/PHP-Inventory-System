@@ -14,16 +14,16 @@ class Database{
 
 	    // Check connection
 	    if (!$DBConnect) { 
-	    	echo "There is an Error in Connecting to the Database..!";
+	    	//echo "There is an Error in Connecting to the Database..!";
 	        die("Connection failed: " . mysqli_connect_error());
 	        
 	    }
-	    echo "Successfully Connected..!";
+	    //echo "Successfully Connected..!";
 	    return $DBConnect;
     }
 }
 
-$db = new Database();
-$db->connect();
+//$db = new Database();
+//$db->connect();
 
 ?>
