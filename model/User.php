@@ -68,6 +68,8 @@ class User
                 //Here We Updating User's Last Login Time
                 $last_login = date("Y-d-m h:m:s");
 
+                //Time ZONE PROBLEM
+
                 $PreparedSatement = $this->con->prepare("UPDATE USERS SET last_login = ? WHERE email = ? ");
                 $PreparedSatement->bind_param("ss", $last_login, $email);
                 $Result = $PreparedSatement->execute() or die($this->con->error);
@@ -83,8 +85,7 @@ class User
     }
 
 }
-$user = new User();
+//$user = new User();
 //$user->createUser("Safnaj","safnaj@gmail.om","961013","Admin");
-
-echo $user->userLogin("safnaj@gmail.com","961013");
-
+//echo $user->userLogin("safnaj@gmail.com","961013");
+//echo  $_SESSION["username"];
