@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82dd06c1-726c-48ae-b017-9d26a3e60456" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/js/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/js/Main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/User.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,14 +38,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="67" column="57" lean-forward="true" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
+            <state relative-caret-position="966">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="e#7#77#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Register.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="34" column="77" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bootstrap/js/Main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -81,7 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bootstrap/js/Main.js" />
         <option value="$PROJECT_DIR$/bootstrap/css/Style.css" />
         <option value="$PROJECT_DIR$/includes/modal.php" />
         <option value="$PROJECT_DIR$/includes/category.php" />
@@ -94,6 +113,8 @@
         <option value="$PROJECT_DIR$/Dashboard.php" />
         <option value="$PROJECT_DIR$/database/DBConnection.php" />
         <option value="$PROJECT_DIR$/model/User.php" />
+        <option value="$PROJECT_DIR$/Register.php" />
+        <option value="$PROJECT_DIR$/bootstrap/js/Main.js" />
       </list>
     </option>
   </component>
@@ -111,8 +132,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="450" />
-    <option name="y" value="16" />
+    <option name="x" value="489" />
+    <option name="y" value="14" />
     <option name="width" value="850" />
     <option name="height" value="684" />
   </component>
@@ -131,6 +152,17 @@
             <path>
               <item name="PHP-Inventory-System" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP-Inventory-System" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP-Inventory-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP-Inventory-System" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP-Inventory-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP-Inventory-System" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PHP-Inventory-System" type="b2602c69:ProjectViewProjectNode" />
@@ -196,7 +228,7 @@
       <workItem from="1558800954721" duration="30000" />
       <workItem from="1558806255709" duration="10000" />
       <workItem from="1559980665978" duration="1593000" />
-      <workItem from="1559983199215" duration="4572000" />
+      <workItem from="1559983199215" duration="5649000" />
     </task>
     <task id="LOCAL-00001" summary="Dashboard UI">
       <created>1557740476395</created>
@@ -223,11 +255,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23683000" />
+    <option name="totallyTimeSpent" value="24760000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="450" y="16" width="850" height="684" extended-state="0" />
-    <editor active="true" />
+    <frame x="489" y="14" width="850" height="684" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
@@ -236,7 +267,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290938" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19904077" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19904077" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" visible="true" weight="0.040767387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -574,20 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/js/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/db.php" />
     <entry file="file://$PROJECT_DIR$/database/DBConnection.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -605,11 +622,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="67" column="57" lean-forward="true" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
+        <state relative-caret-position="966">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="e#7#77#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="77" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/js/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
         </state>
       </provider>
     </entry>
