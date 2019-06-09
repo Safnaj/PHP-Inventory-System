@@ -93,5 +93,17 @@ $(document).ready(function () {
            $("#p2_error").html("<span class='text-danger'>Password Not Matched</span>");
            status = true;
        }
+	   //StackOverFlow
+	   //https://stackoverflow.com/questions/8692488/jquery-check-two-inputs-for-same-value
+	   <input type="text" id="id1" />
+		<input type="text" id="id2" />
+
+		$('input').blur(function() {
+		if ($('#id1').attr('value') == $('#id2').attr('value')) {
+		alert('Same Value');
+		return false;
+		} else { return true; }
+		});
+		//StackOverFlow
    })
 })
