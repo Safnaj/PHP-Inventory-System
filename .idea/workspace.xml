@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82dd06c1-726c-48ae-b017-9d26a3e60456" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap/js/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/js/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/User.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,8 +39,8 @@
       <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="1394">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="e#7#77#0#PHP" expanded="true" />
               </folding>
@@ -53,7 +51,7 @@
       <file leaf-file-name="Register.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="286">
               <caret line="34" column="77" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="77" />
             </state>
           </provider>
@@ -62,8 +60,8 @@
       <file leaf-file-name="Main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bootstrap/js/Main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="136">
+              <caret line="80" column="36" lean-forward="true" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -71,7 +69,7 @@
       <file leaf-file-name="Dashboard.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
+            <state relative-caret-position="17">
               <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
             </state>
           </provider>
@@ -132,8 +130,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="489" />
-    <option name="y" value="14" />
+    <option name="x" value="388" />
+    <option name="y" value="13" />
     <option name="width" value="850" />
     <option name="height" value="684" />
   </component>
@@ -229,6 +227,7 @@
       <workItem from="1558806255709" duration="10000" />
       <workItem from="1559980665978" duration="1593000" />
       <workItem from="1559983199215" duration="5649000" />
+      <workItem from="1560076032920" duration="5155000" />
     </task>
     <task id="LOCAL-00001" summary="Dashboard UI">
       <created>1557740476395</created>
@@ -255,10 +254,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24760000" />
+    <option name="totallyTimeSpent" value="29915000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="489" y="14" width="850" height="684" extended-state="0" />
+    <frame x="556" y="51" width="850" height="684" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
@@ -267,7 +267,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290938" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19904077" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26258993" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" visible="true" weight="0.040767387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -613,34 +613,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="1394">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="e#7#77#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="286">
           <caret line="34" column="77" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/js/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        <state relative-caret-position="136">
+          <caret line="80" column="36" lean-forward="true" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
         </state>
       </provider>
     </entry>
