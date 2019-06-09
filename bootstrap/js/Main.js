@@ -7,7 +7,7 @@ $(document).ready(function () {
        var email = $("#email");
        var password1 = $("#password1");
        var password2 = $("#password2");
-       var type = $("#usertype");
+       var type = $("#type");
        var n_patt = new RegExp(/^[A-Za-z ]+$/);
        var e_patt = new RegExp(/^[a-z0-9_-]+(\.[a-z0-9_-]+)*@[a-z0-9_-]+(\.[a-z0-9_-]+)*(\.[a-z]{2,4})$/);
 
@@ -69,17 +69,17 @@ $(document).ready(function () {
 
        //Type Validation
        if (type.val()=="") {
-           usertype.addClass("border-danger");
+           type.addClass("border-danger");
            $("#t_error").html("<span class='text-danger'>Please Select User Type</span>");
            status = false;
        }else{
-           usertype.removeClass("border-danger");
+           type.removeClass("border-danger");
            $("#t_error").html("");
            status = true;
        }
 
        //Password Matches Validation
-       if(password1.val()== password2.val()){
+       if((password1.val())==(password2.val())){
             // $.ajax({
             //     url : Domain+"/includes/process.php",
             //     method : "POST",
