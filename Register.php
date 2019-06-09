@@ -31,8 +31,9 @@
                     <small id="p2_error" class="form-text text-muted"></small>
                 </div>
                 <div class="form-group">
-                    <label for="usertype">User Type</label>
-                    <select name="usertype" class="form-control" id="usertype">
+                    <label for="type">User Type</label>
+                    <select name="type" class="form-control" id="type">
+                        <option value="">Choose User type</option>
                         <option value="1">Admin</option>
                         <option value="0">Other</option>
                     </select>
