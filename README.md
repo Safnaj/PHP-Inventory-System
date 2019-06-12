@@ -11,3 +11,4 @@ Features
 * Sales Report
 * Printing Bill Invoice
 * 2 User Type
+* Form Validations using Jquery
