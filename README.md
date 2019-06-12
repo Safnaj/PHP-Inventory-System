@@ -9,3 +9,5 @@ Features
 * Add Stock
 * Manage Stock
 * Sales Report
+* Printing Bill Invoice
+* 2 User Type
