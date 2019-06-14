@@ -12,3 +12,11 @@ Features
 * Printing Bill Invoice
 * 2 User Type
 * Form Validations using Jquery
+
+Technologies Used
+--------------
+* HTML5 & CSS3
+* Bootstrap
+* PHP
+* jquery
+* Ajax
