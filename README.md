@@ -1,6 +1,5 @@
 # PHP-Inventory-System
-Inventory &amp; Stock Management System using PHP, JavaScript &amp; AJAX
-
+Inventory &amp; Stock Management System in PHP
 
 Features
 --------------
