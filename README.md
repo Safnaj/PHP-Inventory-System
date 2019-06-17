@@ -12,8 +12,7 @@ Features
 * 2 User Type (Admin, User)
 * Form Validations using Jquery
 
-Technologies Used
---------------
+#### Technologies Used
 * HTML5 & CSS3
 * Bootstrap
 * PHP
