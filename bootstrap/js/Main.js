@@ -1,7 +1,7 @@
 //Custom Javascripts
 
 $(document).ready(function () {
-    var Domain = "http://localhost/PHP-Inventory-System";
+    var DOMAIN = "http://localhost/PHP-Inventory-System";
    $("#register_form").on("submit",function () {
        var name = $("#username");
        var email = $("#email");
@@ -57,10 +57,6 @@ $(document).ready(function () {
            password2.addClass("border-danger");
            $("#p2_error").html("<span class='text-danger'>Please Re-Enter Password</span>");
            status = false;
-       }else if(password2.val().length < 9){
-           password2.addClass("border-danger");
-           $("#p2_error").html("<span class='text-danger'>Password Length Must be more than 9 characters</span>");
-           status = false;
        }else{
            password2.removeClass("border-danger");
            $("#p2_error").html("");
@@ -79,31 +75,25 @@ $(document).ready(function () {
        }
 
        //Password Matches Validation
-       if((password1.val())==(password2.val())){
-            // $.ajax({
-            //     url : Domain+"/includes/process.php",
-            //     method : "POST",
-            //     data : $("#register_form").serialize(),
-            //     success : function(data) {
-            //         alert(data);
-            //     }
-            // })
-       }else{
+       if(password1.val()!= password2.val()){
            password2.addClass("border-danger");
            $("#p2_error").html("<span class='text-danger'>Password Not Matched</span>");
-           status = true;
+           status = false;
+       }else if(status == true) {
+           $.ajax({
+               url: "http://localhost/PHP-Inventory-System/controller/Process.php",
+               method: "POST",
+               data: $('#register_form').serialize(),
+               success: function (data) {
+                   if (data == "Email Already Exisists..!") {
+                       alert("It seems  like your email is already registered..!");
+                   } else if (data == "SOME ERROR") {
+                       alert("An Error Occured..!")
+                   } else {
+                       window.location = DOMAIN + "/Index.php?msg=You are registered";
+                   }
+               }
+           })
        }
-	   //StackOverFlow
-	   //https://stackoverflow.com/questions/8692488/jquery-check-two-inputs-for-same-value
-	   <input type="text" id="id1" />
-		<input type="text" id="id2" />
-
-		$('input').blur(function() {
-		if ($('#id1').attr('value') == $('#id2').attr('value')) {
-		alert('Same Value');
-		return false;
-		} else { return true; }
-		});
-		//StackOverFlow
    })
 })
