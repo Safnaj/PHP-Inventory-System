@@ -45,7 +45,7 @@ class User
             if ($Result) {
                 return $this->con->insert_id;
             } else {
-                return "ERROR";
+                return "SOME ERROR";
             }
         }
     }

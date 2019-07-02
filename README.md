@@ -8,7 +8,7 @@ Features
 * Add Stock
 * Manage Stock
 * Sales Report
-* Printing Invoice
+* Printing Bill Invoice
 * 2 User Type (Admin, User)
 * Form Validations using Jquery
 
