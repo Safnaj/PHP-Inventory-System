@@ -4,7 +4,7 @@
  * Project PHP-Inventory-System
  **/
 
-class CategoryController
+class Category
 {
     private $con;
 
@@ -29,7 +29,7 @@ class CategoryController
     }
 }
                                                                             //Video No 13
-$opr = new CategoryController();
+$opr = new Category();
 echo $opr->addCategory(0,"Electronics");
 
 ?>
