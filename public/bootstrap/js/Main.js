@@ -2,7 +2,7 @@
 
 $(document).ready(function () {
 
-    var DOMAIN = "http://localhost/PHP-Inventory-System";
+    var DOMAIN = "http://localhost/php-inventory-system/";
 
     /*---------------------------------------------------- Register-------------------------------------------------- */
    $("#register_form").on("submit",function () {
@@ -83,16 +83,17 @@ $(document).ready(function () {
        }
 
        //Password Matches Validation
-       if(password1.val()!= password2.val()){
+       if (password1.val()!= password2.val()){
            password2.addClass("border-danger");
            $("#p2_error").html("<span class='text-danger'>Password Not Matched</span>");
            status = false;
+
        }else if(password1.val() == password2.val() && status == true) {
-           //window.alert("Everything OK");
+            alert("Everything OK");
 
            $(".overlay").show();
            $.ajax({
-               url : DOMAIN+"/controller/UserController.php",
+               url : DOMAIN+"includes/Process.php",
                method : "POST",
                data : $("#register_form").serialize(),
                success : function(data){                            //Response == data
@@ -107,7 +108,7 @@ $(document).ready(function () {
                        window.location.href = encodeURI(DOMAIN+"/Index.php?msg=You are registered Now you can login");
                    }
                }
-           })
+           }) //AJAX Ends
        }
 
    })
@@ -142,5 +143,23 @@ $(document).ready(function () {
         }
     })
 
+    /*----------------------------------------------------- CATEGORY------------------------------------------------ */
 
+    //Fetch category
+    fetch_category();
+    function fetch_category(){
+        $.ajax({
+            url : DOMAIN+"/controller/CategoryController.php",
+            method : "POST",
+            data : {getCategory:1},
+            success : function(data){
+                //alert(data);
+                var root = "<option value='0'>Root</option>";
+                var choose = "<option value=''>Choose Category</option>";
+                $("#parent_cat").html(root+data);
+                $("#select_cat").html(choose+data);
+            }
+        })
+    }
+    //Video No 14
 })

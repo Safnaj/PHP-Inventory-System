@@ -1,4 +1,4 @@
-<?php include_once("public/includes/Header.php"); ?>
+<?php include_once("includes/Header.php"); ?>
 
 <title>Register</title>
 

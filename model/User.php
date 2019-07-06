@@ -42,6 +42,7 @@ class User
             $Result = $PreparedStatement->execute() or die($this->con->error);
             if ($Result) {
                 return $this->con->insert_id;
+                return true;
             } else {
                 return "SOME_ERROR";
             }

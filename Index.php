@@ -1,4 +1,4 @@
-<?php include_once("public/includes/Header.php"); ?>
+<?php include_once("includes/Header.php"); ?>
 
 <title>Login</title>
 
@@ -33,7 +33,8 @@
                         <small id="p_error" class="form-text text-muted"></small>
                     </div>
                     <button type="submit" class="btn btn-primary">Login</button>
-                    <span><a href="Register.php">Register</a> </span>
+                    <span><a href="Register.php">Register</a> </span> |
+                    <span><a href="Dashboard.php">Dashboard</a> </span>
                 </form>
             </div>
             <div class="card-footer">
