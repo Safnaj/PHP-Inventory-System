@@ -146,7 +146,7 @@ $(document).ready(function () {
     /*----------------------------------------------------- CATEGORY------------------------------------------------ */
 
     //Fetch category
-    fetch_category();
+    fetch_category(); //Calling Function in Initialize
     function fetch_category(){
         $.ajax({
             url : DOMAIN+"/controller/CategoryController.php",
@@ -161,5 +161,92 @@ $(document).ready(function () {
             }
         })
     }
-    //Video No 14
+
+    //Add Category
+    $("#category_form").on("submit",function(){
+        if ($("#category_name").val() == "") {
+            $("#category_name").addClass("border-danger");
+            $("#cat_error").html("<span class='text-danger'>Please Enter Category Name</span>");
+        }else{
+            $.ajax({
+                url : DOMAIN+"/controller/CategoryController.php",
+                method : "POST",
+                data  : $("#category_form").serialize(),
+                success : function(data){
+                    if (data == "CATEGORY_ADDED") {
+                        $("#category_name").removeClass("border-danger");
+                        $("#cat_error").html("<span class='text-success'>New Category Added Successfully..!</span>");
+                        $("#category_name").val("");
+                        fetch_category();
+                    }else{
+                        alert(data);
+                    }
+                }
+            })
+        }
+    })
+
+    //Fetch Brand
+    fetch_brand();  //Calling Function in Initialize
+    function fetch_brand(){
+        $.ajax({
+            url : DOMAIN+"/controller/BrandController.php",
+            method : "POST",
+            data : {getBrand:1},
+            success : function(data){
+                var choose = "<option value=''>Choose Brand</option>";
+                $("#select_brand").html(choose+data);
+            }
+        })
+    }
+
+    //Add Brand
+    $("#brand_form").on("submit",function(){
+        if ($("#brand_name").val() == "") {
+            $("#brand_name").addClass("border-danger");
+            $("#brand_error").html("<span class='text-danger'>Please Enter Brand Name</span>");
+        }else{
+            $.ajax({
+                url : DOMAIN+"/controller/BrandController.php",
+                method : "POST",
+                data : $("#brand_form").serialize(),
+                success : function(data){
+                    if (data == "BRAND_ADDED") {
+                        $("#brand_name").removeClass("border-danger");
+                        $("#brand_error").html("<span class='text-success'>New Brand Added Successfully..!</span>");
+                        $("#brand_name").val("");
+                        fetch_brand();
+                    }else{
+                        alert(data);
+                    }
+
+                }
+            })
+        }
+    })
+
+    //add product
+    $("#product_form").on("submit",function(){
+        $.ajax({
+            url : DOMAIN+"/controller/ProductController",
+            method : "POST",
+            data : $("#product_form").serialize(),
+            success : function(data){
+                if (data == "NEW_PRODUCT_ADDED") {
+                    alert("New Product Added Successfully..!");
+                    $("#product_name").val("");
+                    $("#select_cat").val("");
+                    $("#select_brand").val("");
+                    $("#product_price").val("");
+                    $("#product_qty").val("");
+
+                }else{
+                    console.log(data);
+                    alert(data);
+                }
+
+            }
+        })
+    })
+
 })

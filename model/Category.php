@@ -22,7 +22,7 @@ class Category
         $pre_stmt->bind_param("isd",$parent,$category,$status);
         $result = $pre_stmt->execute() or die ($this->con->error);
         if($result){
-            return "CATEGORY ADDED";
+            return "CATEGORY_ADDED";
         }else{
             return 0;
         }
