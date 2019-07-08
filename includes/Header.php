@@ -7,7 +7,10 @@
 
     <script src="public/bootstrap/js/jquery-3.3.1.min.js"></script>
     <script src="public/bootstrap/js/bootstrap.js"></script>
+
     <script type="text/javascript" src="public/bootstrap/js/Main.js"></script>
+    <script type="text/javascript" src="public/bootstrap/js/Manage.js"></script>
+
     <link rel="stylesheet" href="public/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="public/bootstrap/css/Style.css">
     <link rel="stylesheet" href="public/bootstrap/css/font-awesome.min.css">
