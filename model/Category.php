@@ -41,6 +41,33 @@ class Category
         }
         return "NO_DATA";
     }
+
+    public function deleteRecord($table,$pk,$id){
+        if($table == "category"){
+            $pre_stmt = $this->con->prepare("SELECT ".$id." FROM category WHERE parent_cat = ?");
+            $pre_stmt->bind_param("i",$id);
+            $pre_stmt->execute();
+            $result = $pre_stmt->get_result() or die($this->con->error);
+            if ($result->num_rows > 0) {
+                return "DEPENDENT_CATEGORY";
+            }else{
+                $pre_stmt = $this->con->prepare("DELETE FROM ".$table." WHERE ".$pk." = ?");
+                $pre_stmt->bind_param("i",$id);
+                $result = $pre_stmt->execute() or die($this->con->error);
+                if ($result) {
+                    return "CATEGORY_DELETED";
+                }
+            }
+        }else{
+            $pre_stmt = $this->con->prepare("DELETE FROM ".$table." WHERE ".$pk." = ?");
+            $pre_stmt->bind_param("i",$id);
+            $result = $pre_stmt->execute() or die($this->con->error);
+            if ($result) {
+                return "DELETED";
+            }
+        }
+    }
+
 }
 
 /*$opr = new Category();

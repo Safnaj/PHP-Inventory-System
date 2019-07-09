@@ -55,4 +55,11 @@ if (isset($_POST["manageCategory"])) {
         exit();
 
     }
+
+    //Delete Category
+    if (isset($_POST["deleteCategory"])) {
+        $m = new Category();
+        $result = $m->deleteRecord("category","cid",$_POST["id"]);
+        echo $result;
+    }
 }
