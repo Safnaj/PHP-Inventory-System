@@ -38,13 +38,13 @@ $(document).ready(function () {
                     }else if(data == "DELETED"){
                         alert("Deleted Successfully");
                     }else{
-                        alert(data);
+                        alert("Something Went Wrong..!");
                     }
 
                 }
             })
         }else{
-
+            //
         }
     })
 

@@ -44,7 +44,7 @@ class Category
 
     public function deleteRecord($table,$pk,$id){
         if($table == "category"){
-            $pre_stmt = $this->con->prepare("SELECT ".$id." FROM category WHERE parent_cat = ?");
+            $pre_stmt = $this->con->prepare("SELECT ".$id." FROM ".$table." WHERE parent_cat = ?");
             $pre_stmt->bind_param("i",$id);
             $pre_stmt->execute();
             $result = $pre_stmt->get_result() or die($this->con->error);
