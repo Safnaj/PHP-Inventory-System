@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74327a7b-a1c8-4fcd-a417-2d5fd02da82d" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/ManageCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/ManageCategory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/CategoryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/Header.php" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/controller/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/ManageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/ManageController.php" afterDir="false" />
+>>>>>>> db36e16dff3f4ed4acedc49b1da52d1fb8950cb3
       <change beforePath="$PROJECT_DIR$/model/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/Category.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,8 +58,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/bootstrap/js/Main.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-1054">
               <caret line="82" column="8" lean-forward="true" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+=======
+            <state relative-caret-position="306">
+              <caret line="162" column="5" lean-forward="true" selection-start-line="148" selection-start-column="4" selection-end-line="162" selection-end-column="5" />
+>>>>>>> db36e16dff3f4ed4acedc49b1da52d1fb8950cb3
             </state>
           </provider>
         </entry>
@@ -62,17 +72,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/bootstrap/js/Manage.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="782">
               <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+=======
+            <state relative-caret-position="272">
+              <caret line="70" column="55" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="55" />
+>>>>>>> db36e16dff3f4ed4acedc49b1da52d1fb8950cb3
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/includes/Header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+=======
+        <entry file="file://$PROJECT_DIR$/includes/Update-Category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="72" lean-forward="true" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+              <folding>
+                <element signature="e#482#489#1#HTML" expanded="true" />
+              </folding>
+>>>>>>> db36e16dff3f4ed4acedc49b1da52d1fb8950cb3
             </state>
           </provider>
         </entry>
@@ -97,8 +122,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/ManageController.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="175">
               <caret line="23" column="68" lean-forward="true" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+=======
+            <state relative-caret-position="-219">
+              <caret line="26" column="68" lean-forward="true" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+>>>>>>> db36e16dff3f4ed4acedc49b1da52d1fb8950cb3
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
@@ -111,21 +141,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/CategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="923">
               <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+=======
+            <state relative-caret-position="595">
+              <caret line="56" column="42" lean-forward="true" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
+>>>>>>> db36e16dff3f4ed4acedc49b1da52d1fb8950cb3
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/ManageCategory.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="410">
               <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+=======
+        <entry file="file://$PROJECT_DIR$/model/Category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="88" column="22" lean-forward="true" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
+              <folding>
+                <element signature="e#6#76#0#PHP" expanded="true" />
+              </folding>
+>>>>>>> db36e16dff3f4ed4acedc49b1da52d1fb8950cb3
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/Category.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -138,6 +184,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> db36e16dff3f4ed4acedc49b1da52d1fb8950cb3
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -169,6 +217,7 @@
         <option value="$PROJECT_DIR$/includes/Pagination.php" />
         <option value="$PROJECT_DIR$/Dashboard.php" />
         <option value="$PROJECT_DIR$/includes/ManageCategory.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/controller/ManageController.php" />
         <option value="$PROJECT_DIR$/public/bootstrap/js/Main.js" />
         <option value="$PROJECT_DIR$/public/bootstrap/js/Manage.js" />
@@ -176,6 +225,16 @@
         <option value="$PROJECT_DIR$/model/Category.php" />
         <option value="$PROJECT_DIR$/includes/Header.php" />
         <option value="$PROJECT_DIR$/ManageCategory.php" />
+=======
+        <option value="$PROJECT_DIR$/includes/Header.php" />
+        <option value="$PROJECT_DIR$/ManageCategory.php" />
+        <option value="$PROJECT_DIR$/public/bootstrap/js/Main.js" />
+        <option value="$PROJECT_DIR$/controller/ManageController.php" />
+        <option value="$PROJECT_DIR$/controller/CategoryController.php" />
+        <option value="$PROJECT_DIR$/public/bootstrap/js/Manage.js" />
+        <option value="$PROJECT_DIR$/includes/Update-Category.php" />
+        <option value="$PROJECT_DIR$/model/Category.php" />
+>>>>>>> db36e16dff3f4ed4acedc49b1da52d1fb8950cb3
       </list>
     </option>
   </component>
@@ -293,12 +352,16 @@
       <updated>1562397472437</updated>
       <workItem from="1562397519224" duration="1458000" />
       <workItem from="1562399229873" duration="24659000" />
-      <workItem from="1562762332541" duration="3443000" />
+      <workItem from="1562762332541" duration="14236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="30552000" />
+=======
+    <option name="totallyTimeSpent" value="40353000" />
+>>>>>>> db36e16dff3f4ed4acedc49b1da52d1fb8950cb3
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -331,13 +394,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/includes/Process.php" />
-    <entry file="file://$PROJECT_DIR$/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -397,13 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e4d4ade1-4618-42af-ba74-6f1b10fde643/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -414,6 +463,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/includes/Brands.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -425,6 +475,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
+=======
+    <entry file="file://$PROJECT_DIR$/includes/Header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="78" lean-forward="true" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+>>>>>>> db36e16dff3f4ed4acedc49b1da52d1fb8950cb3
         </state>
       </provider>
     </entry>
@@ -435,8 +491,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/bootstrap/js/Main.js">
+    <entry file="file://$PROJECT_DIR$/ManageCategory.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-1054">
           <caret line="82" column="8" lean-forward="true" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
         </state>
@@ -463,6 +520,24 @@
           <folding>
             <element signature="e#6#76#0#PHP" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="442">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="76" selection-start-line="76" selection-end-line="76" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bootstrap/js/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="162" column="5" lean-forward="true" selection-start-line="148" selection-start-column="4" selection-end-line="162" selection-end-column="5" />
+>>>>>>> db36e16dff3f4ed4acedc49b1da52d1fb8950cb3
         </state>
       </provider>
     </entry>
@@ -483,8 +558,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/ManageController.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="175">
           <caret line="23" column="68" lean-forward="true" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+=======
+        <state relative-caret-position="-219">
+          <caret line="26" column="68" lean-forward="true" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+>>>>>>> db36e16dff3f4ed4acedc49b1da52d1fb8950cb3
           <folding>
             <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
@@ -493,6 +573,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/includes/Header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -504,6 +585,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+=======
+    <entry file="file://$PROJECT_DIR$/includes/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/Brands.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="99" selection-start-line="21" selection-start-column="99" selection-end-line="21" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/Update-Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="72" lean-forward="true" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+          <folding>
+            <element signature="e#482#489#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bootstrap/js/Manage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="70" column="55" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="56" column="42" lean-forward="true" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="88" column="22" lean-forward="true" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
+          <folding>
+            <element signature="e#6#76#0#PHP" expanded="true" />
+          </folding>
+>>>>>>> db36e16dff3f4ed4acedc49b1da52d1fb8950cb3
         </state>
       </provider>
     </entry>

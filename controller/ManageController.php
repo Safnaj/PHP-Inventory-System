@@ -1,6 +1,7 @@
 <?php
 
 
+
 class ManageController
 {
     private $con;
@@ -11,6 +12,8 @@ class ManageController
         $db = new Database();
         $this->con = $db->connect();
     }
+
+
 
     public function manageRecordWithPagination($table,$pno){
         $a = $this->pagination($this->con,$table,$pno,5);
