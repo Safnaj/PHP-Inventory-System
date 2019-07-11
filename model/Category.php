@@ -73,4 +73,7 @@ class Category
 /*$opr = new Category();
 echo $opr->addCategory(1,"Mobiles");*/
 
+/*$opr = new Category();
+echo $opr->deleteRecord("category","cid",1);*/
+
 ?>
