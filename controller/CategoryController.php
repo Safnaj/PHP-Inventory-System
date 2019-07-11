@@ -7,6 +7,7 @@
 include_once("../database/DBConnection.php");
 include_once("../model/Category.php");
 include_once("../controller/ManageController.php");
+include_once("../includes/Update-Category.php");
 
 //To get Category
 if (isset($_POST["getCategory"])) {
@@ -26,6 +27,22 @@ if (isset($_POST["category_name"]) AND isset($_POST["parent_cat"])) {
     exit();
 }
 
+//Delete Category
+if (isset($_POST["deleteCategory"])) {
+    $m = new Category();
+    $result = $m->deleteRecord("category","cid",$_POST["id"]);
+    echo $result;
+    exit();
+}
+
+//Update Category
+if (isset($_POST["updateCategory"])) {
+    $m = new Category();
+    $result = $m->getSingleRecord("category","cid",$_POST["id"]);
+    echo json_encode($result);
+    exit();
+}
+
 //Manage Category
 if (isset($_POST["manageCategory"])) {
     $m = new ManageController();
@@ -42,8 +59,9 @@ if (isset($_POST["manageCategory"])) {
                 <td><?php echo $row["parent"]; ?></td>
                 <td><a href="#" class="btn btn-success btn-sm">Active</a></td>
                 <td>
-                    <a href="#" did="<?php echo $row['cid']; ?>" class="btn btn-danger btn-sm del_cat">Delete</a>
-                    <a href="#" eid="<?php echo $row['cid']; ?>" data-toggle="modal" data-target="#form_category" class="btn btn-info btn-sm edit_cat">Edit</a>
+                    <?php /*echo $row['cid']; */?>
+                    <a href="#" deleteId="<?php echo $row["cid"]; ?>" class="btn btn-danger btn-sm del_cat">Delete</a>
+                    <a href="#" editId="<?php echo $row["cid"]; ?>" data-toggle="modal" data-target="#form_category" class="btn btn-info btn-sm edit_cat">Edit</a>
                 </td>
             </tr>
             <?php
@@ -56,10 +74,6 @@ if (isset($_POST["manageCategory"])) {
 
     }
 
-    //Delete Category
-    if (isset($_POST["deleteCategory"])) {
-        $m = new Category();
-        $result = $m->deleteRecord("category","cid",$_POST["id"]);
-        echo $result;
-    }
+
+
 }
