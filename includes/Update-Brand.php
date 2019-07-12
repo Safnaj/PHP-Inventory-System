@@ -16,11 +16,10 @@
                         <input type="text" class="form-control" name="brandUpdate" id="brandUpdate" aria-describedby="emailHelp">
                         <small id="brand_error" class="form-text text-muted"></small>
                     </div>
-
+                    <button type="submit" class="btn btn-primary">Update</button>
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="submit" class="btn btn-primary">Update</button>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
         </div>
