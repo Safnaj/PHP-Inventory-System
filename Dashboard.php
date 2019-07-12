@@ -56,7 +56,7 @@
 					<!--Data-Target id will be called in Brands.pjp-->
                     <p class="card-text">Here You Can Manage Your Brands</p>
                     <a href="#" data-toggle="modal" data-target="#brands" class="btn btn-primary">Add</a>
-                    <a href="#" class="btn btn-primary">Manage</a>
+                    <a href="ManageBrand.php" class="btn btn-primary">Manage</a>
                 </div>
             </div>
         </div>

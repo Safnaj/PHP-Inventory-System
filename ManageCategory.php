@@ -1,4 +1,5 @@
 <?php require_once("database/DBConnection.php"); ?>
+<?php include_once("includes/Update-Category.php"); ?>
 
 <!DOCTYPE html>
 <html lang="en">

@@ -81,6 +81,25 @@ class Category
         return $row;
     }
 
+    public function update_record($table,$where,$fields){
+        $sql = "";
+        $condition = "";
+        foreach ($where as $key => $value) {
+            // id = '5' AND m_name = 'something'
+            $condition .= $key . "='" . $value . "' AND ";
+        }
+        $condition = substr($condition, 0, -5);
+        foreach ($fields as $key => $value) {
+            //UPDATE table SET m_name = '' , qty = '' WHERE id = '';
+            $sql .= $key . "='".$value."', ";
+        }
+        $sql = substr($sql, 0,-2);
+        $sql = "UPDATE ".$table." SET ".$sql." WHERE ".$condition;
+        if(mysqli_query($this->con,$sql)){
+            return "UPDATED";
+        }
+    }
+
 }
 
 /*$opr = new Category();
@@ -90,7 +109,7 @@ $obj = new Category();
 echo $obj->deleteRecord("category","cid",8);*/
 
 /*$obj = new Category();
-print_r($obj->getSingleRecord("category","cid",5));*/
+print_r($obj->getSingleRecord("category","cid",1));*/
 
 /*$opr = new Category();
 echo $opr->deleteRecord("category","cid",1);*/

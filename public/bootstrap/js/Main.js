@@ -241,7 +241,7 @@ $(document).ready(function () {
                     $("#product_qty").val("");
 
                 }else{
-                    console.log(data);
+                    //console.log(data);
                     alert(data);
                 }
 
