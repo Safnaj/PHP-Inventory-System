@@ -182,4 +182,65 @@ $(document).ready(function () {
         }
     })
 
+    /*-------------------------------------------------------PRODUCTS---------------------------------------------------*/
+
+    manageProduct(1);
+    function manageProduct(pn){
+        $.ajax({
+            url : DOMAIN+"controller/ProductController",
+            method : "POST",
+            data : {manageProduct:1,pageno:pn},
+            success : function(data){
+                $("#get_product").html(data);
+            }
+        })
+    }
+
+    //Navigation Click
+    $("body").delegate(".page-link","click",function(){
+        var pn = $(this).attr("pn");
+        manageProduct(pn);
+    })
+
+    $("body").delegate(".del_product","click",function(){
+        var did = $(this).attr("did");
+        if (confirm("Are you sure ? You want to delete..!")) {
+            $.ajax({
+                url : DOMAIN+"controller/ProductController",
+                method : "POST",
+                data : {deleteProduct:1,id:did},
+                success : function(data){
+                    if (data == "DELETED") {
+                        alert("Product is deleted");
+                        manageProduct(1);
+                    }else{
+                        alert(data);
+                    }
+
+                }
+            })
+        }
+    })
+
+    //Update product
+    $("body").delegate(".edit_product","click",function(){
+        var eid = $(this).attr("eid");
+        $.ajax({
+            url : DOMAIN+"controller/ProductController",
+            method : "POST",
+            dataType : "json",
+            data : {updateProduct:1,id:eid},
+            success : function(data){
+                console.log(data);
+                $("#pid").val(data["pid"]);
+                $("#update_product").val(data["product_name"]);
+                $("#select_cat").val(data["cid"]);
+                $("#select_brand").val(data["bid"]);
+                $("#product_price").val(data["product_price"]);
+                $("#product_qty").val(data["product_stock"]);
+
+            }
+        })
+    })
+
 })
