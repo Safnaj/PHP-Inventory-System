@@ -45,7 +45,7 @@
                     <h5 class="card-title">Categories</h5>
                     <p class="card-text">Here You Can Manage Your Categories</p>
                     <a href="#" data-toggle="modal" data-target="#category" class="btn btn-primary">Add</a>
-                    <a href="ManageCategory.php" class="btn btn-primary">Manage</a>
+                    <a href="Manage-Category.php" class="btn btn-primary">Manage</a>
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@
 					<!--Data-Target id will be called in Brands.pjp-->
                     <p class="card-text">Here You Can Manage Your Brands</p>
                     <a href="#" data-toggle="modal" data-target="#brands" class="btn btn-primary">Add</a>
-                    <a href="ManageBrand.php" class="btn btn-primary">Manage</a>
+                    <a href="Manage-Brand.php" class="btn btn-primary">Manage</a>
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@
                     <h5 class="card-title">Products</h5>
                     <p class="card-text">Here You Can Manage Your Products</p>
                     <a href="#" data-toggle="modal" data-target="#products" class="btn btn-primary">Add</a>
-                    <a href="#" class="btn btn-primary">Manage</a>
+                    <a href="Manage-Product.php" class="btn btn-primary">Manage</a>
                 </div>
             </div>
         </div>

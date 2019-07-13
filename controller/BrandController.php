@@ -70,3 +70,12 @@ if (isset($_POST["updateBrand"])) {
     echo json_encode($result);
     exit();
 }
+
+//Update Record after getting data
+if (isset($_POST["brandUpdate"])) {
+    $m = new Category();
+    $id = $_POST["bid"];
+    $name = $_POST["brandUpdate"];
+    $result = $m->update_record("brands",["bid"=>$id],["brand_name"=>$name,"status"=>1]);
+    echo $result;
+}

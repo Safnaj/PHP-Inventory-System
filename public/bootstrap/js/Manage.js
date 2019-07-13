@@ -145,7 +145,6 @@ $(document).ready(function () {
         }
     })
 
-    //
     //Select Brand for Update
     $("body").delegate(".edit_brand","click",function(){
         var eid = $(this).attr("eid");
@@ -164,5 +163,23 @@ $(document).ready(function () {
         })
     })
 
+    $("#update_brand_form").on("submit",function(){
+        if ($("#brandUpdate").val() == "") {
+            $("#brandUpdate").addClass("border-danger");
+            $("#brand_error").html("<span class='text-danger'>Please Enter Brand Name</span>");
+        }else{
+            $.ajax({
+                url : DOMAIN+"controller/BrandController",
+                method : "POST",
+                data  : $("#update_brand_form").serialize(),
+                success : function(data){
+                    //alert(data);
+                    alert("Category Updated Successfully..!");
+                    //$("#brand_error").html("<span class='text-success'>Please Enter Brand Name</span>");
+                    window.location.href = "";
+                }
+            })
+        }
+    })
 
 })
