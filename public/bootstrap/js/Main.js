@@ -89,11 +89,11 @@ $(document).ready(function () {
            status = false;
 
        }else if(password1.val() == password2.val() && status == true) {
-            alert("Everything OK");
+            //alert("Everything OK");
 
            $(".overlay").show();
            $.ajax({
-               url : DOMAIN+"includes/Process.php",
+               url : DOMAIN+"/controller/UserController.php",
                method : "POST",
                data : $("#register_form").serialize(),
                success : function(data){                            //Response == data
@@ -104,8 +104,9 @@ $(document).ready(function () {
                        $(".overlay").hide();
                        alert("Something Wrong");
                    }else{
-                       $(".overlay").hide();
-                       window.location.href = encodeURI(DOMAIN+"/Index.php?msg=You are registered Now you can login");
+                       alert("User Registered Successfully..!")
+                       /*$(".overlay").hide();
+                       window.location.href = encodeURI(DOMAIN+"/Index.php?msg=You are registered Now you can login");*/
                    }
                }
            }) //AJAX Ends
@@ -162,7 +163,7 @@ $(document).ready(function () {
         })
     }
 
-    //Add Category
+    //Add New Category
     $("#category_form").on("submit",function(){
         if ($("#category_name").val() == "") {
             $("#category_name").addClass("border-danger");
@@ -186,7 +187,7 @@ $(document).ready(function () {
         }
     })
 
-    //Fetch Brand
+    //Fetch Brands
     fetch_brand();  //Calling Function in Initialize
     function fetch_brand(){
         $.ajax({
@@ -200,7 +201,7 @@ $(document).ready(function () {
         })
     }
 
-    //Add Brand
+    //Add New Brand
     $("#brand_form").on("submit",function(){
         if ($("#brand_name").val() == "") {
             $("#brand_name").addClass("border-danger");
@@ -225,7 +226,7 @@ $(document).ready(function () {
         }
     })
 
-    //add product
+    //Add New Product
     $("#product_form").on("submit",function(){
         $.ajax({
             url : DOMAIN+"/controller/ProductController",
@@ -249,4 +250,4 @@ $(document).ready(function () {
         })
     })
 
-})
+}) //Code Ends

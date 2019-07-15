@@ -2,7 +2,6 @@ $(document).ready(function () {
 
     var DOMAIN = "http://localhost/php-inventory-system/";
 
-
     //Fetch category
     fetch_category();
     function fetch_category(){
@@ -163,6 +162,7 @@ $(document).ready(function () {
         })
     })
 
+    //Updating Brand
     $("#update_brand_form").on("submit",function(){
         if ($("#brandUpdate").val() == "") {
             $("#brandUpdate").addClass("border-danger");
@@ -202,6 +202,7 @@ $(document).ready(function () {
         manageProduct(pn);
     })
 
+    //Delete Product
     $("body").delegate(".del_product","click",function(){
         var did = $(this).attr("did");
         if (confirm("Are you sure ? You want to delete..!")) {
@@ -222,7 +223,7 @@ $(document).ready(function () {
         }
     })
 
-    //Update product
+    //Set Product for Update
     $("body").delegate(".edit_product","click",function(){
         var eid = $(this).attr("eid");
         $.ajax({
@@ -242,5 +243,23 @@ $(document).ready(function () {
             }
         })
     })
+
+    //Update product
+    $("#update_product_form").on("submit",function(){
+        $.ajax({
+            url : DOMAIN+"controller/ProductController",
+            method : "POST",
+            data : $("#update_product_form").serialize(),
+            success : function(data){
+                if (data == "UPDATED") {
+                    alert("Product Updated Successfully..!");
+                    window.location.href = "";
+                }else{
+                    alert(data);
+                }
+            }
+        })
+    })
+
 
 })

@@ -77,3 +77,17 @@ if (isset($_POST["updateProduct"])) {
     echo json_encode($result);
     exit();
 }
+
+//Update Record after getting data
+if (isset($_POST["update_product"])) {
+    $m = new Product();
+    $id = $_POST["pid"];
+    $name = $_POST["update_product"];
+    $cat = $_POST["select_cat"];
+    $brand = $_POST["select_brand"];
+    $price = $_POST["product_price"];
+    $qty = $_POST["product_qty"];
+    $date = $_POST["added_date"];
+    $result = $m->update_record("products",["pid"=>$id],["cid"=>$cat,"bid"=>$brand,"product_name"=>$name,"product_price"=>$price,"product_stock"=>$qty,"added_date"=>$date]);
+    echo $result;
+}

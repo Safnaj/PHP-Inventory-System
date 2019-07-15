@@ -19,6 +19,7 @@ if (isset($_POST["username"]) AND isset($_POST["email"])) {
     $user = new User();
     $result = $user->createUser($_POST["username"],$_POST["email"],$_POST["password1"],$_POST["type"]);
     echo $result;
+    exit();
 
 }
 //$user = new User();

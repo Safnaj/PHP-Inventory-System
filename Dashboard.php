@@ -28,7 +28,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">New Orders</h5>
                                 <p class="card-text">Make Invoices and Create New Orders.</p>
-                                <a href="#" class="btn btn-primary">New Orders</a>
+                                <a href="New-Order.php" class="btn btn-primary">New Orders</a>
                             </div>
                         </div>
                     </div>
