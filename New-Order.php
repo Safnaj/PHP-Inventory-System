@@ -47,7 +47,7 @@
                         <div class="form-group row">
                             <label class="col-sm-3 col-form-label" align="right">Order Date</label>
                             <div class="col-sm-6">
-                                <input type="text" id="order_date" name="order_date" readonly class="form-control form-control-sm" value="<?php echo date("Y-d-m"); ?>">
+                                <input type="text" id="order_date" name="order_date" readonly class="form-control form-control-sm" value="<?php echo date("Y-m-d"); ?>">
                             </div>
                         </div>
                         <div class="form-group row">
@@ -102,12 +102,6 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="gst" class="col-sm-3 col-form-label" align="right">GST (18%)</label>
-                            <div class="col-sm-6">
-                                <input type="text" readonly name="gst" class="form-control form-control-sm" id="gst" required/>
-                            </div>
-                        </div>
-                        <div class="form-group row">
                             <label for="discount" class="col-sm-3 col-form-label" align="right">Discount</label>
                             <div class="col-sm-6">
                                 <input type="text" name="discount" class="form-control form-control-sm" id="discount" required/>
@@ -126,7 +120,7 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="due" class="col-sm-3 col-form-label" align="right">Due</label>
+                            <label for="due" class="col-sm-3 col-form-label" align="right">Balance</label>
                             <div class="col-sm-6">
                                 <input type="text" readonly name="due" class="form-control form-control-sm" id="due" required/>
                             </div>

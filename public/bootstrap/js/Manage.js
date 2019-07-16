@@ -40,7 +40,7 @@ $(document).ready(function () {
     })
 
     $("body").delegate(".del_cat","click",function(){
-        var did = $(this).attr("deleteId");
+        var did = $(this).attr("did");
         if (confirm("Are you sure ? You want to delete..!")) {
             $.ajax({
                 url : DOMAIN+"controller/CategoryController",

@@ -1,0 +1,267 @@
+@font-face {
+    font-family: billFont;
+    /*src: url('fonts/billFont3.ttf');*/
+}
+
+body{
+    width:700px;
+    margin:0 auto;
+    font-family:Arial;
+    font-size:14px;
+}
+
+.billBody{
+    width:300px;
+    margin:0 auto;
+    font-family:Arial;
+    font-size:14px;
+    padding:0;
+}
+
+.billBody3{
+    margin:0 auto;
+    font-family:Arial;
+    font-size:14px;
+    padding:10px 0;
+}
+
+.billBody2{
+    width:500px;
+    margin:0 auto;
+    font-family:Arial;
+    font-size:14px;
+    padding:10px 0;
+}
+
+.billHead{
+    text-align:center;
+    margin:0 0 2px 0;
+}
+
+.billHead2{
+    margin:0 0 2px 0;
+}
+
+.billAddress{
+    text-align:center;
+    padding-bottom:3px;
+    border-bottom:2px dotted #000;
+    margin-bottom:3px;
+}
+
+.BilledTo{
+    font-size:13px;
+    font-weight:bolder;
+    border-bottom:1px dashed #000;
+    text-align:center;
+    padding-bottom:4px;
+}
+
+.billFooter{
+    border-top:1px dashed #000;
+    border-bottom:1px dashed #000;
+    margin-top:3px;
+    padding-top:3px;
+    text-align:center;
+}
+
+.listItem{
+    border-bottom:1px solid #CCC;
+    padding:6px 0;
+    margin-right:4px;
+    width:340px;
+    display:inline-block;
+    vertical-align:bottom;
+}
+
+.textbox{
+    padding:5px;
+    border:1px solid #CCC;
+    border-radius:4px;
+}
+
+.textbox2{
+    padding:5px;
+    border:1px solid #CCC;
+    border-radius:4px;
+    box-sizing:border-box;
+    width:100%;
+    vertical-align:top;
+    height:38px;
+}
+
+.button{
+    width:120px;
+    height:27px;
+}
+
+.deletediv{
+    width:20px;
+    display:inline-block;
+    vertical-align:top;
+}
+
+.attribute{
+    text-align:center;
+    font-size:12px;
+    /*border-top:1px dashed #000;*/
+    padding-top:4px;
+    margin-top:4px;
+    font-weight:normal;
+    color:#000 !important;
+}
+
+@media print
+{
+    .no-print{
+        display: none !important;
+    }
+    .printonly{
+        height:60px;
+    }
+    .colorHead{
+        color:#000 !important;
+        font-weight: bolder;
+    }
+}
+
+.pagenav{
+    margin-top:12px;
+    border-top:2px solid #949090;
+    padding:6px;
+    text-align:center;
+}
+
+.showregion{
+    border:2px solid #CCC;
+    border-radius:4px;
+    display:inline-block;
+    vertical-align:top;
+    padding:6px 15px;
+}
+
+.inHeading{
+    margin:0 0 12px 0;
+    border-bottom:2px solid #000;
+    font-size:16px;
+    text-align:center;
+    font-weight:bolder;
+    padding:10px 0 5px;
+}
+
+.viewList{
+    padding:5px 5px 0 5px;
+    border-bottom:1px solid #333;
+}
+
+.viewList > .listEach{
+    display:inline-block;
+    vertical-align:top;
+    padding:4px 0;
+    text-transform:capitalize;
+}
+
+.topRight{
+    position:absolute;
+    top:0;
+    right:50px;
+}
+
+.topLeft{
+    position:absolute;
+    top:10px;
+    left:50px;
+}
+
+/* Invoice */
+.logoLeft{
+    width:100px;
+    display:inline-block;
+    vertical-align:top;
+}
+.addressRight{
+    width:395px;
+    display:inline-block;
+    vertical-align:top;
+    text-align:center !important;
+}
+
+.billViewHead{
+    border:1px solid #CCC;
+    border-radius:4px;
+    margin-right:6px;
+    overflow:hidden;
+    display:inline-block;
+    vertical-align:top;
+    margin-bottom:3px;
+}
+
+.billViewHeadTitle{
+    padding: 4px;
+    background-color:#333;
+    color:#FFF;
+    display:inline-block;
+    vertical-align:top;
+    font-weight:bolder;
+    margin-right:10px;
+}
+
+.billViewHeadContent{
+    padding: 4px 4px 4px 0;
+    display:inline-block;
+    vertical-align:top;
+}
+
+table.billList {
+    font-size:12px;
+    border-collapse: collapse;
+    margin:0;
+}
+table.billList, table.billList > tbody > tr > th {
+    border: 1px solid black;
+}
+table.billList > tbody > tr > td {
+    border: 1px solid black;
+    padding:5px;
+}
+table.billList > tbody > tr > th {
+    background-color:#000000;
+    color:#FFF;
+    border: 1px solid black;
+    padding:5px;
+    text-align: center !important;
+}
+table.billList > tbody > tr:hover {background-color: #E1E1E1}
+
+input[type=submit], button {
+    background: #14669c;
+    background-image: -webkit-linear-gradient(top, #14669c, #2980b9);
+    background-image: -moz-linear-gradient(top, #14669c, #2980b9);
+    background-image: -ms-linear-gradient(top, #14669c, #2980b9);
+    background-image: -o-linear-gradient(top, #14669c, #2980b9);
+    background-image: linear-gradient(to bottom, #14669c, #2980b9);
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: none;
+    border:1px solid #11314B;
+    height:38px;
+}
+
+input[type=submit]:hover, button:hover {
+    background: #115580;
+    background-image: -webkit-linear-gradient(top, #115580, #3498db);
+    background-image: -moz-linear-gradient(top, #115580, #3498db);
+    background-image: -ms-linear-gradient(top, #115580, #3498db);
+    background-image: -o-linear-gradient(top, #115580, #3498db);
+    background-image: linear-gradient(to bottom, #115580, #3498db);
+    text-decoration: none;
+}
+
+.float-right{
+    float: right;
+    clear: both;
+}
