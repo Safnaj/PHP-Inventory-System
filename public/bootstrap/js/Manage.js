@@ -104,6 +104,7 @@ $(document).ready(function () {
 
     /*-------------------------------------------------------BRANDS---------------------------------------------------*/
 
+    //Manage Brand Table
     manageBrand(1);
     function manageBrand(pn){
         $.ajax({
