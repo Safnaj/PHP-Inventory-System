@@ -39,9 +39,6 @@ while($DataRows = mysqli_fetch_array($Execute)) {
 
 ?>
 
-<!--SQL-->
-
-<!--SQL-->
 <!doctype html>
 <html>
 <head>
