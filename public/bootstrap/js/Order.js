@@ -117,12 +117,12 @@ $(document).ready(function() {
                     if (data < 0) {
                         alert(data);
                     } else {
-                        $("#get_order_data").trigger("reset");
+                        $("#get_order_data").trigger("reset"); //Rest Form
 
                         if (confirm("Sales Done Successfully..!\nDo u want to print invoice ?")) {
-                            window.print()
+                            //window.print()
                             //alert(data);
-                            //window.location.href = DOMAIN + "/includes/invoice_bill.php?invoice_no=" + data + "&" + invoice;
+                           window.location.href = DOMAIN + "Bill-Print.php?invoice_no="+data;
                         }
                     }
                 }

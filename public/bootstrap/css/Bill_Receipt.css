@@ -3,6 +3,20 @@
     /*src: url('fonts/billFont3.ttf');*/
 }
 
+@media print
+{
+    .no-print{
+        display: none !important;
+    }
+    .printonly{
+        height:60px;
+    }
+    .colorHead{
+        color:#000 !important;
+        font-weight: bolder;
+    }
+}
+
 body{
     width:700px;
     margin:0 auto;
@@ -109,20 +123,6 @@ body{
     margin-top:4px;
     font-weight:normal;
     color:#000 !important;
-}
-
-@media print
-{
-    .no-print{
-        display: none !important;
-    }
-    .printonly{
-        height:60px;
-    }
-    .colorHead{
-        color:#000 !important;
-        font-weight: bolder;
-    }
 }
 
 .pagenav{
