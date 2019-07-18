@@ -45,7 +45,6 @@ while($DataRows = mysqli_fetch_array($Execute)) {
     <meta charset="utf-8">
     <title>Untitled Document</title>
     <link rel="stylesheet" type="text/css" href="public/bootstrap/css/Bill_Receipt.css">
-    <link rel="stylesheet" type="text/css" href="public/bootstrap/css/bootstrap.min.css">
     <script type="text/javascript" src="public/bootstrap/js/Order.js"></script>
     <style>
         @page{
