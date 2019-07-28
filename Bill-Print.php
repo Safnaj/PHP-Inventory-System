@@ -63,12 +63,12 @@ while($DataRows = mysqli_fetch_array($Execute)) {
 </h1>
 <!--Bill Header Logo-->
 
-<!--Date,Cashier & Bill No-->
+<!--Date | Cashier | Bill No-->
 <div class="BilledTo">
     <span style="text-transform: capitalize">Bill No : <?php echo $invoiceNo ;?></span>
     <br>Date : <?php echo $orderDate ;?> &nbsp; | &nbsp; Cashier : Master
 </div>
-<!--Date,Cashier & Bill No-->
+<!--Date | Cashier | Bill No-->
 
 <!--Item List-->
 <?php
