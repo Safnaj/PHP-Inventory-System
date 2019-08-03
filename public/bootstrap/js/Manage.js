@@ -39,6 +39,7 @@ $(document).ready(function () {
         manageCategory(pn);
     })
 
+    //Delete Category
     $("body").delegate(".del_cat","click",function(){
         var did = $(this).attr("did");
         if (confirm("Are you sure ? You want to delete..!")) {
